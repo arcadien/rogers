@@ -15,7 +15,7 @@ Project's goal is to provide a wireless sensor which interface water counter lik
 | [HLR1](../../issues/1) | Rogers emits data using X10 counter protocol, on the 433Mhz bandwith|
 | [HLR2](../../issues/2) | Rogers provides two measurements: remaining battery voltage and current counter value in liter|
 | [HLR3](../../issues/3) | Rogers sends an message for each liter|
-| (HLR4](../../issues/4) | Rogers sends an message each hour with total water consumption and battery voltage in millivolts|
+| [HLR4](../../issues/4) | Rogers sends an message each hour with total water consumption and battery voltage in millivolts|
 
 
 ## Low level software requirements
