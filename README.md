@@ -27,7 +27,7 @@ Project's goal is to provide a wireless sensor which interface water counter lik
 |LLR3| Rogers emits battery voltage in millivolt using X10Meter protocol |
 |LLR4| Rogers emits total water consumption in liters using X10Meter protocol|
 |LLR5| Rogers detects metal disc movement through the CNY70 wired on `PA0`|
-|LLR6| Rogers count a new consumed liter when the CNY70 value follow a model [OUT_OF_DISK_ANALOG_VALUE] -> [ON_DISK_ANALOG_VALUE]-> [OUT_OF_DISK_ANALOG_VALUE] |
+|LLR6| Rogers count a new consumed liter when the CNY70 value follow a model OUT_OF_DISK_ANALOG_VALUE -> ON_DISK_ANALOG_VALUE -> OUT_OF_DISK_ANALOG_VALUE |
 |LLR7| If for some reason Rogers is locked in a CNY70 value model detection for more than 10 seconds, then detection is aborted |
  
 # Hardware
@@ -64,9 +64,6 @@ Project's goal is to provide a wireless sensor which interface water counter lik
 
 
 # Constants
-
-[ON_DISK_ANALOG_VALUE]:ON_DISK_ANALOG_VALUE  
-[OUT_OF_DISK_ANALOG_VALUE]:OUT_OF_DISK_ANALOG_VALUE
 
 |Name      | Value | Description|
 |----------|-------|------------|
